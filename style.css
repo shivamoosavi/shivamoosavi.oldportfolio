@@ -1,0 +1,86 @@
+
+/* definition of some classes */
+.body
+{
+  background-color:rgb(95, 7, 7);
+  margin-right : 0px;
+}
+.head
+{color:aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+background-color:rgb(218, 47, 62);
+text-align:center;
+padding :  30px 100px 30px 100px;
+}
+.h1
+{font-size:40px;
+}
+
+.h2
+{font-size :25px;
+}
+
+.h3
+{font-size :18px;
+}
+
+.center
+{text-align:center;
+}
+
+.baground
+{
+ color:aliceblue;
+ background-color:rgb(95, 7, 7); 
+ text-align:center;
+ border :  30px 100px;
+ border-color:black;
+}
+
+.left
+{
+text-align:left; 
+padding-left: 50px;
+padding-right: 50px; 
+}
+
+.footer
+{
+font-size:12px;
+color:aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+background-color:rgb(218, 47, 62);
+text-align:center;
+margin-top : 50px;
+padding :  10px 20px 10px 20px;
+}
+
+.color
+{
+  color:rgba(238, 137, 54, 0.76);
+}
+
+/* The list */
+li
+{
+  list-style-position: inside;
+  text-align:left;
+}
+
+/* The line*/
+hr
+{
+  margin: 70px 50px;
+  color: aliceblue;
+  height: 3px;
+  background-color: aliceblue;
+}
+
+/* Pseudo Classes */
+a {font-family:Arial, Helvetica, sans-serif;
+}
+a:link {color:rgba(238, 137, 54, 0.76) ;}
+a:visited {color:rgb(156, 228, 156);}
+a:hover {color:yellow;}
+a:active {color:blue;}
+
